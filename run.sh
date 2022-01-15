@@ -1,0 +1,1 @@
+gcc -I ./src/ ./src/main.c ./src/fms_data.c ./src/fms.c -lm -o ./bin/main.exe && ./bin/main.exe 

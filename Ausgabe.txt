@@ -1,0 +1,78 @@
+
+   Airline|Flight No.|from|  to|Departure| Arrival|Airplane
+----------|----------|----|----|---------|--------|--------
+ Lufthansa|   LH 2147| MUC| HAM|    11:30|   14:30|  D-AIMA
+ Lufthansa|   LH 2147| HAM| FRA|    15:30|   16:30|  D-AIMA
+ Lufthansa|   LH 2147| FRA| MUC|    18:30|   20:30|  D-AIMA
+ Lufthansa|   LH 2147| MUC| HAM|    20:45|   22:00|  D-AIMA
+ Lufthansa|   LH 2147| HAM| MUC|    22:30|   23:30|  D-AIMA
+ EuroWings|   EW 5953| MUC| DUS|    03:00|   04:15|  D-AIAB
+ EuroWings|   EW 5953| DUS| BER|    08:00|   10:00|  D-AIAB
+ EuroWings|   EW 5953| BER| CGN|    10:12|   13:15|  D-AIAB
+ EuroWings|   EW 5953| CGN| MUC|    18:00|   20:30|  D-AIAB
+ EuroWings|   EW 5953| MUC| DUS|    21:45|   23:30|  D-AIAB
+    TUIFly|   X3 2174| HAM| STR|    08:00|   10:00|  D-ABCD
+    TUIFly|   X3 2174| STR| BER|    10:15|   13:00|  D-ABCD
+    TUIFly|   X3 2174| BER| FRA|    13:10|   15:00|  D-ABCD
+    TUIFly|   X3 2174| FRA| HAM|    15:12|   17:00|  D-ABCD
+    TUIFly|   X3 2174| HAM| FRA|    22:00|   24:00|  D-ABCD
+
+   Airline|Flight No.|from|  to|Duration
+----------|----------|----|----|--------
+ Lufthansa|   LH 2147| MUC| HAM|  03:00
+ Lufthansa|   LH 2147| HAM| FRA|  01:00
+ Lufthansa|   LH 2147| FRA| MUC|  02:00
+ Lufthansa|   LH 2147| MUC| HAM|  01:15
+ Lufthansa|   LH 2147| HAM| MUC|  01:00
+
+Total flight Time for Lufthansa A380 is 08:15
+
+   Airline|Flight No.|from|  to|Duration
+----------|----------|----|----|--------
+ EuroWings|   EW 5953| MUC| DUS|  01:15
+ EuroWings|   EW 5953| DUS| BER|  02:00
+ EuroWings|   EW 5953| BER| CGN|  03:03
+ EuroWings|   EW 5953| CGN| MUC|  02:30
+ EuroWings|   EW 5953| MUC| DUS|  01:45
+
+Total flight Time for EuroWings A320 is 10:33
+
+   Airline|Flight No.|from|  to|Duration
+----------|----------|----|----|--------
+    TUIFly|   X3 2174| HAM| STR|  02:00
+    TUIFly|   X3 2174| STR| BER|  02:45
+    TUIFly|   X3 2174| BER| FRA|  01:50
+    TUIFly|   X3 2174| FRA| HAM|  01:48
+    TUIFly|   X3 2174| HAM| FRA|  02:00
+
+Total flight Time for TUIFly B747 is 10:23
+
+   Airline|Flight No.|from|  to|Distance
+----------|----------|----|----|--------
+ Lufthansa|   LH 2147| MUC| HAM| 600.69
+ Lufthansa|   LH 2147| HAM| FRA| 412.14
+ Lufthansa|   LH 2147| FRA| MUC| 299.40
+ Lufthansa|   LH 2147| MUC| HAM| 600.69
+ Lufthansa|   LH 2147| HAM| MUC| 600.69
+
+Total flight distance for Lufthansa A380 is 2513.62
+
+   Airline|Flight No.|from|  to|Distance
+----------|----------|----|----|--------
+ EuroWings|   EW 5953| MUC| DUS| 486.27
+ EuroWings|   EW 5953| DUS| BER| 479.18
+ EuroWings|   EW 5953| BER| CGN| 469.81
+ EuroWings|   EW 5953| CGN| MUC| 436.19
+ EuroWings|   EW 5953| MUC| DUS| 486.27
+
+Total flight distance for EuroWings A320 is 2357.71
+
+   Airline|Flight No.|from|  to|Distance
+----------|----------|----|----|--------
+    TUIFly|   X3 2174| HAM| STR| 552.56
+    TUIFly|   X3 2174| STR| BER| 508.54
+    TUIFly|   X3 2174| BER| FRA| 430.55
+    TUIFly|   X3 2174| FRA| HAM| 412.14
+    TUIFly|   X3 2174| HAM| FRA| 412.14
+
+Total flight distance for TUIFly B747 is 2315.93
