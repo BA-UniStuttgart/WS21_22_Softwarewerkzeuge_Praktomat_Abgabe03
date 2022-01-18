@@ -10,10 +10,10 @@ Airport AIRPORT_MUC = {
     "MUC",
 
     //  field: latitude
-    { /* field: degree */ 48, /* field: minute */ 21, /* field: second */ 14 },
+    { 48, 21, 14 }, //  { field: degree, field: minute, field: second }
 
     //  field: longitude
-    { /* field: degree */ 11, /* field: minute */ 47, /* field: second */ 10 },
+    { 11, 47, 10 }, //  { field: degree, field: minute, field: second }
 
     //  field: heightAMSL
     448
@@ -27,10 +27,10 @@ Airport AIRPORT_HAM = {
     "HAM",
 
     //  field: latitude
-    { /* field: degree */ 53, /* field: minute */ 37, /* field: second */ 49 },
+    { 53, 37, 49 }, //  { field: degree, field: minute, field: second }
 
     //  field: longitude
-    { /* field: degree */ 9, /* field: minute */ 59, /* field: second */ 18 },
+    { 9, 59, 18 },  //  { field: degree, field: minute, field: second }
 
     //  field: heightAMSL
     11
@@ -44,10 +44,10 @@ Airport AIRPORT_FRA = {
     "FRA",
 
     //  field: latitude
-    { /* field: degree */ 50, /* field: minute */ 1, /* field: second */ 59 },
+    { 50, 1, 59 },  //  { field: degree, field: minute, field: second }
 
     //  field: longitude
-    { /* field: degree */ 8, /* field: minute */ 34, /* field: second */ 14 },
+    { 8, 34, 14 },  //  { field: degree, field: minute, field: second }
 
     //  field: heightAMSL
     100
@@ -61,10 +61,10 @@ Airport AIRPORT_DUS = {
     "DUS",
 
     //  field: latitude
-    { /* field: degree */ 51, /* field: minute */ 16, /* field: second */ 51 },
+    { 51, 16, 51 }, //  { field: degree, field: minute, field: second }
 
     //  field: longitude
-    { /* field: degree */ 6, /* field: minute */ 45, /* field: second */ 26 },
+    { 6, 45, 26 },  //  { field: degree, field: minute, field: second }
 
     //  field: heightAMSL
     36
@@ -78,10 +78,10 @@ Airport AIRPORT_BER = {
     "BER",
 
     //  field: latitude
-    { /* field: degree */ 52, /* field: minute */ 21, /* field: second */ 44 },
+    { 52, 21, 44 }, //  { field: degree, field: minute, field: second }
 
     //  field: longitude
-    { /* field: degree */ 13, /* field: minute */ 30, /* field: second */ 2 },
+    { 13, 30, 2 },  //  { field: degree, field: minute, field: second }
 
     //  field: heightAMSL
     47.5
@@ -95,10 +95,10 @@ Airport AIRPORT_CGN = {
     "CGN",
 
     //  field: latitude
-    { /* field: degree */ 50, /* field: minute */ 51, /* field: second */ 57 },
+    { 50, 51, 57 }, //  { field: degree, field: minute, field: second }
 
     //  field: longitude
-    { /* field: degree */ 7, /* field: minute */ 8, /* field: second */ 34 },
+    { 7, 8, 34 },   //  { field: degree, field: minute, field: second }
 
     //  field: heightAMSL
     77
@@ -112,10 +112,10 @@ Airport AIRPORT_STR = {
     "STR",
 
     //  field: latitude
-    { /* field: degree */ 48, /* field: minute */ 41, /* field: second */ 24 },
+    { 48, 41, 24 }, //  { field: degree, field: minute, field: second }
 
     //  field: longitude
-    { /* field: degree */ 9, /* field: minute */ 13, /* field: second */ 19 },
+    { 9, 13, 19 },  //  { field: degree, field: minute, field: second }
 
     //  field: heightAMSL
     360
@@ -135,10 +135,10 @@ FlightPath A380_FLIGHTPATHS[] = {
         &AIRPORT_HAM,
 
         // field: departure
-        { /* field: hour */ 11, /* field: minute */ 30 },
+        { 11, 30 }, // { field: hour, field: minute }
 
         //  field: arrival
-        { /* field: hour */ 14, /* field: minute */ 30 }
+        { 14, 30 }  // { field: hour, field: minute }
     },
 
     //  HAM-FRA
@@ -153,10 +153,10 @@ FlightPath A380_FLIGHTPATHS[] = {
         &AIRPORT_FRA,
 
         // field: departure
-        { /* field: hour */ 15, /* field: minute */ 30 },
+        { 15, 30 }, // { field: hour, field: minute }
 
         //  field: arrival
-        { /* field: hour */ 16, /* field: minute */ 30 }
+        { 16, 30 }  // { field: hour, field: minute }
     },
 
     //  FRA-MUC
@@ -171,10 +171,10 @@ FlightPath A380_FLIGHTPATHS[] = {
         &AIRPORT_MUC,
 
         // field: departure
-        { /* field: hour */ 18, /* field: minute */ 30 },
+        { 18, 30 }, // { field: hour, field: minute }
 
         //  field: arrival
-        { /* field: hour */ 20, /* field: minute */ 30 }
+        { 20, 30 }  // { field: hour, field: minute }
     },
 
     //  MUC-HAM
@@ -189,10 +189,10 @@ FlightPath A380_FLIGHTPATHS[] = {
         &AIRPORT_HAM,
 
         // field: departure
-        { /* field: hour */ 20, /* field: minute */ 45 },
+        { 20, 45 }, // { field: hour, field: minute }
 
         //  field: arrival
-        { /* field: hour */ 22, /* field: minute */ 0 }
+        { 22, 0 }   // { field: hour, field: minute }
     },
 
     //  HAM-MUC
@@ -210,7 +210,7 @@ FlightPath A380_FLIGHTPATHS[] = {
         { /* field: hour */ 22, /* field: minute */ 30 },
 
         //  field: arrival
-        { /* field: hour */ 23, /* field: minute */ 30 }
+        { 23, 30 }  // { field: hour, field: minute }
     },
 };
 
@@ -228,10 +228,10 @@ FlightPath A320_FLIGHTPATHS[] = {
         &AIRPORT_DUS,
 
         // field: departure
-        { /* field: hour */ 3, /* field: minute */ 0 },
+        { 3, 0 },   // { field: hour, field: minute }
 
         //  field: arrival
-        { /* field: hour */ 4, /* field: minute */ 15 }
+        { 4, 15 }   // { field: hour, field: minute }
     },
 
     //  DUS-BER
@@ -246,10 +246,10 @@ FlightPath A320_FLIGHTPATHS[] = {
         &AIRPORT_BER,
 
         // field: departure
-        { /* field: hour */ 8, /* field: minute */ 0 },
+        { 8, 0 },   // { field: hour, field: minute }
 
         //  field: arrival
-        { /* field: hour */ 10, /* field: minute */ 0 }
+        { 10, 0 }   // { field: hour, field: minute }
     },
 
     //  BER-CGN
@@ -264,10 +264,10 @@ FlightPath A320_FLIGHTPATHS[] = {
         &AIRPORT_CGN,
 
         // field: departure
-        { /* field: hour */ 10, /* field: minute */ 12 },
+        { 10, 12 }, // { field: hour, field: minute }
 
         //  field: arrival
-        { /* field: hour */ 13, /* field: minute */ 15 }
+        { 13, 15 }  // { field: hour, field: minute }
     },
 
     //  CGN-MUC
@@ -282,10 +282,10 @@ FlightPath A320_FLIGHTPATHS[] = {
         &AIRPORT_MUC,
 
         // field: departure
-        { /* field: hour */ 18, /* field: minute */ 0 },
+        { 18, 0 },  // { field: hour, field: minute }
 
         //  field: arrival
-        { /* field: hour */ 20, /* field: minute */ 30 }
+        { 20, 30 }  // { field: hour, field: minute }
     },
 
     //  MUC-DUS
@@ -300,10 +300,10 @@ FlightPath A320_FLIGHTPATHS[] = {
         &AIRPORT_DUS,
 
         // field: departure
-        { /* field: hour */ 21, /* field: minute */ 45 },
+        { 21, 45 }, // { field: hour, field: minute }
 
         //  field: arrival
-        { /* field: hour */ 23, /* field: minute */ 30 }
+        { 23, 30 }  // { field: hour, field: minute }
     }
 };
 
@@ -321,10 +321,10 @@ FlightPath B747_FLIGHTPATHS[] = {
         &AIRPORT_STR,
 
         // field: departure
-        { /* field: hour */ 8, /* field: minute */ 0 },
+        { 8, 0 }, // { field: hour, field: minute }
 
         //  field: arrival
-        { /* field: hour */ 10, /* field: minute */ 0 }
+        { 10, 0 } // { field: hour, field: minute }
     },
 
     //  STR-BER
@@ -339,10 +339,10 @@ FlightPath B747_FLIGHTPATHS[] = {
         &AIRPORT_BER,
 
         // field: departure
-        { /* field: hour */ 10, /* field: minute */ 15 },
+        { 10, 15 }, // { field: hour, field: minute }
 
         //  field: arrival
-        { /* field: hour */ 13, /* field: minute */ 0 }
+        { 13, 0 }   // { field: hour, field: minute }
     },
 
     //  BER-FRA
@@ -357,10 +357,10 @@ FlightPath B747_FLIGHTPATHS[] = {
         &AIRPORT_FRA,
 
         // field: departure
-        { /* field: hour */ 13, /* field: minute */ 10 },
+        { 13, 10 }, // { field: hour, field: minute }
 
         //  field: arrival
-        { /* field: hour */ 15, /* field: minute */ 0 }
+        { 15, 0 }   // { field: hour, field: minute }
     },
 
     //  FRA-HAM
@@ -375,10 +375,10 @@ FlightPath B747_FLIGHTPATHS[] = {
         &AIRPORT_HAM,
 
         // field: departure
-        { /* field: hour */ 15, /* field: minute */ 12 },
+        { 15, 12 }, // { field: hour, field: minute }
 
         //  field: arrival
-        { /* field: hour */ 17, /* field: minute */ 0 }
+        { 17, 0 }   // { field: hour, field: minute }
     },
 
     //  HAM-FRA
@@ -393,10 +393,10 @@ FlightPath B747_FLIGHTPATHS[] = {
         &AIRPORT_FRA,
 
         // field: departure
-        { /* field: hour */ 22, /* field: minute */ 0 },
+        { 22, 0 },  // { field: hour, field: minute }
 
         //  field: arrival
-        { /* field: hour */ 24, /* field: minute */ 0 }
+        { 24, 0 }   // { field: hour, field: minute }
     }
 };
 
@@ -480,7 +480,7 @@ Airline FMS_AIRLINES[] = {
     //  TUIfly
     {
         //  field: airlineName
-        "TUIfly",
+        "TUIFly",
 
         //  field: p_Airplane
         TUIFLY_AIRPLANES,

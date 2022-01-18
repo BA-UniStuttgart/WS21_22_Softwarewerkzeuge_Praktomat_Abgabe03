@@ -2,9 +2,9 @@
 #define _FMS_H_
 
 typedef struct Coordinate {
-    int degree;
-    int minute;
-    int second;
+    double degree;
+    double minute;
+    double second;
 } Coordinate;
 
 typedef struct Time {
@@ -46,9 +46,9 @@ typedef struct FMS {
     unsigned int cnt_Airline;
 } FMS;
 
-void Generate_Time_Table(FMS* p_FMS);
-void Generate_Duration_Table(FMS* p_FMS);
-void Generate_Distance_Table(FMS* p_FMS);
+void Generate_Time_Table(const FMS* p_FMS);
+void Generate_Duration_Table(const FMS* p_FMS);
+void Generate_Distance_Table(const FMS* p_FMS);
 
 double Sin_Deg(double x);
 double Cos_Deg(double x);
